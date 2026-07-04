@@ -69,6 +69,7 @@ class AppTheme:
             "Hill Cipher":     "#3B82F6",
             "DES":             "#EF4444",
             "AES":             "#8B5CF6",
+            "RSA":             "#06B6D4",   # Cyan — asymmetric / modern
         }
 
     def get_algorithm_color(self, name: str) -> str:

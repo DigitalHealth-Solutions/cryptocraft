@@ -9,6 +9,7 @@ from .vigenere_cipher import VigenereCipher
 from .hill_cipher import HillCipher
 from .des_cipher import DESCipher
 from .aes_cipher import AESCipher
+from .rsa_cipher import RSACipher
 
 __all__ = [
     "BaseCipher",
@@ -17,4 +18,5 @@ __all__ = [
     "HillCipher",
     "DESCipher",
     "AESCipher",
+    "RSACipher",
 ]

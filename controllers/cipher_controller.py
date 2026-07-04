@@ -17,6 +17,7 @@ from core import (
     HillCipher,
     DESCipher,
     AESCipher,
+    RSACipher,
 )
 from core.base_cipher import CipherResult
 
@@ -46,6 +47,7 @@ class CipherController:
             HillCipher(),
             DESCipher(),
             AESCipher(),
+            RSACipher(),
         ]
         return {cipher.name: cipher for cipher in ciphers}
 
